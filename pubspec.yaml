@@ -1,0 +1,103 @@
+name: progdia_app
+description: "Progdia - A productivity app with a friendly sloth companion."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  http: ^1.4.0
+  streak_calendar: ^1.1.2
+  firebase_core: ^2.30.0
+  cloud_firestore: ^4.17.5
+  firebase_auth: ^4.17.5
+  google_sign_in: ^6.2.1
+  flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/ic_launcher.jpg"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/beige_cowboy_hat.png
+    - assets/images/display_beige_cowboy_hat.png
+    - assets/images/black_white_tie.png
+    - assets/images/display_black_white_tie.png
+    - assets/images/blue_casual_hat.png
+    - assets/images/display_blue_casual_hat.png
+    - assets/images/blue_grey_tie.png
+    - assets/images/display_blue_grey_tie.png
+    - assets/images/blue_jacket.png
+    - assets/images/display_blue_jacket.png
+    - assets/images/blue_pants.png
+    - assets/images/display_blue_pants.png
+    - assets/images/blue_slip_pants.png
+    - assets/images/display_blue_slip_pants.png
+    - assets/images/blue_white_sleeveless_shirt.png
+    - assets/images/display_blue_white_sleeveless_shirt.png
+    - assets/images/blue_white_tie.png
+    - assets/images/display_blue_white_tie.png
+    - assets/images/brown_orange_sleeveless_shirt.png
+    - assets/images/display_brown_orange_sleeveless_shirt.png
+    - assets/images/brown_shirt.png
+    - assets/images/display_brown_shirt.png
+    - assets/images/brown_shoes.png
+    - assets/images/display_brown_shoes.png
+    - assets/images/display_cyan_dark_blue_yellow_sleeveless_shirt.png
+    - assets/images/cyan_dark_blue_yellow_sleeveless_shirt.png
+    - assets/images/green_casual_shirt.png
+    - assets/images/display_green_casual_shirt.png
+    - assets/images/light_blue_casual_shirt.png
+    - assets/images/display_light_blue_casual_shirt.png
+    - assets/images/light_blue_shirt.png
+    - assets/images/display_light_blue_shirt.png
+    - assets/images/light_blue_shoes.png
+    - assets/images/display_light_blue_shoes.png
+    - assets/images/pink_blouse.png
+    - assets/images/display_pink_blouse.png
+    - assets/images/pink_casual_shirt.png
+    - assets/images/display_pink_casual_shirt.png
+    - assets/images/pink_girly_hat.png
+    - assets/images/display_pink_girly_hat.png
+    - assets/images/pink_shoes.png
+    - assets/images/display_pink_shoes.png
+    - assets/images/pink_skirt_pants.png
+    - assets/images/display_pink_skirt_pants.png
+    - assets/images/plain_red_tie.png
+    - assets/images/display_plain_red_tie.png
+    - assets/images/purple_shirt.png
+    - assets/images/display_purple_shirt.png
+    - assets/images/red_black_tie.png
+    - assets/images/display_red_black_tie.png
+    - assets/images/red_white_tie.png
+    - assets/images/display_red_white_tie.png
+    - assets/images/Sloth.png
+    - assets/images/sleeveless_casual_light_blue_shirt.png
+    - assets/images/display_sleeveless_casual_light_blue_shirt.png
+    - assets/images/sleeveless_casual_red_shirt.png
+    - assets/images/display_sleeveless_casual_red_shirt.png
+    - assets/images/white_classic_pants.png
+    - assets/images/display_white_classic_pants.png
+    - assets/images/white_glasses.png
+    - assets/images/display_white_glasses.png
+    - assets/images/white_shirt.png
+    - assets/images/display_white_shirt.png
+    - assets/images/pink_white_brown_sleeveless_shirt.png
+    - assets/images/display_pink_white_brown_sleeveless_shirt.png
+    - assets/images/display_blue_casual_hat.png
+    - assets/images/google_logo.svg
+    - assets/images/logo.jpg

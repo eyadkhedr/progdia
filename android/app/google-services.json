@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "115906225321",
+    "project_id": "launchx-app-15",
+    "storage_bucket": "launchx-app-15.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115906225321:android:6cca46a423f47b501ef5b8",
+        "android_client_info": {
+          "package_name": "com.progdia.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlvmkup-CqqRdbaBEbl3vjr0oGZQop0FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
